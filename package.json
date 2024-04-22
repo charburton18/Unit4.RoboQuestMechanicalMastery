@@ -1,0 +1,19 @@
+{
+  "name": "unit4.roboquestmechanicalmastery",
+  "version": "1.0.0",
+  "description": "RoboQuest: Mechanical Mastery is an online in-browser game in which users can create a customized robot. In it's current form it is simply an api at which anyone can GET all the robots created so far, GET the robot specified by id, and logged in users can POST new robots, PUT changes on their robots, and DELETE robots.",
+  "main": "index.js",
+  "scripts": {
+    "db": "node src/db/client.js",
+    "start": "nodemon src/server.js",
+    "seed": "node src/db/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.5"
+  }
+}
